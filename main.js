@@ -12,10 +12,6 @@ const rl = readline.createInterface({
 
 //FULL CRUD APP
 
-$(() => {
-  $('#btnSubmit').click(addNewStudent);
-})
-
 let $newFirstName;
 let $newLastName;
 let $newOccupation;
